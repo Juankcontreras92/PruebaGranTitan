@@ -1,0 +1,15 @@
+E:\Work\Git\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+E:\Work\Git\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Git\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+E:\Work\Git\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+E:\Work\Git\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+E:\Work\Git\Data\bin\Debug\net5.0\Data.deps.json
+E:\Work\Git\Data\bin\Debug\net5.0\Data.dll
+E:\Work\Git\Data\bin\Debug\net5.0\ref\Data.dll
+E:\Work\Git\Data\bin\Debug\net5.0\Data.pdb
+E:\Work\Git\Data\bin\Debug\net5.0\Common.dll
+E:\Work\Git\Data\bin\Debug\net5.0\Common.pdb
+E:\Work\Git\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+E:\Work\Git\Data\obj\Debug\net5.0\Data.dll
+E:\Work\Git\Data\obj\Debug\net5.0\ref\Data.dll
+E:\Work\Git\Data\obj\Debug\net5.0\Data.pdb

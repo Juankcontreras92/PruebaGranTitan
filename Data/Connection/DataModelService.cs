@@ -15,36 +15,7 @@ namespace Data.Connection
         public DataModelService()
         {
             _connection = DbContextApi.CreateConnection();
-        }
-        public TModel GetObjectByParameter<TModel, TObject>(string procedure, TObject actualModel)
-            where TModel : new()
-            where TObject : new()
-        {
-            TModel returnValue = new TModel();
-            using (_connection)
-            {
-                using (var command = CreateCustomCommand(procedure))
-                {
-                    CommandSetParameters<TObject>(command, actualModel);
-                    CommandSetOutPutParameters<TModel>(command, returnValue);
-                    int icommand = command.ExecuteNonQuery();
-
-                    var properties = returnValue.GetType().GetProperties();
-                    foreach (var property in properties)
-                    {
-                        try
-                        {
-                            var obj = command.Parameters["@" + property.Name].Value;
-                            property.SetValue(returnValue, obj);
-                        }
-                        catch
-                        {
-                        }
-                    }
-                }
-            }
-            return returnValue;
-        }
+        }        
         public int ExecuteNonQueryModel<TObject>(string procedure, TObject actualModel)
             where TObject : new()
         {

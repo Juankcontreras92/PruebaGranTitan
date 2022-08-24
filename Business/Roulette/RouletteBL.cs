@@ -25,7 +25,7 @@ namespace Business.Roulette
                 response.ReturnCode = "100";
                 response.Message = string.Format("La ruleta ha sido creada correctamente con el id {0}", rouletteId);
             }
-            catch(Exception e)
+            catch(Exception)
             {
                 response.ReturnCode = "0";
                 response.Message = "Ocurrió un error intentando crear una nueva ruleta";

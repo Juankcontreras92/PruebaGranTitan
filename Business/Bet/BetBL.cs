@@ -24,9 +24,8 @@ namespace Business.Bet
                     response.ReturnCode = inserted ? "100":"0";
                     response.Message = inserted ? "La apuesta ha sido creada correctamente" : "La ruleta no existe o no esta abierta";
                 }
-
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 response.Message = "Ocurrió un error intentando crear una nueva ruleta";
             }
